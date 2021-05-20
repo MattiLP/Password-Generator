@@ -6,16 +6,16 @@
     <title>Password Generator</title>
 </head>
 <body>
-    <div>
+    <div id="password-container">
         <span id="password-display"></span>
-    </div>
+    </div><br>
 
     <span>Use 0-9</span><input id="use-digits-checkbox" type="checkbox"><br>
     <span>Use A-Z</span><input id="use-upercase-checkbox" type="checkbox"><br>
     <span>Use -.,+*/&%$?!</span><input id="use-special-characters-checkbox" type="checkbox"><br>
-    <span>Password length</span><input id="password-length" type="number"><br>
+    <span>Password length</span><input class="textbox" id="password-length" type="number" max="30"><br>
 
-    <button id="genrate-button">Generate</button>
+    <button id="genrate-button"><span id="genrate-button-text">Generate</span></button>
 
     <script src="js/chars.js"></script>
     <script src="js/app.js"></script>
