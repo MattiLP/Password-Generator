@@ -19,6 +19,12 @@ function generate() {
     var password = '';
     var currentChars = [];
 
+    if(passwordLength.value > 30) {
+        passwordLength.value = 30;
+    } else if(passwordLength.value < 3) {
+        passwordLength.value = 3;
+    }
+
     for(var i = 0; i < Math.round(passwordLength.value); i++) {
         currentChars.push(lettersLowercase[Math.round(Math.random() * (lettersLowercase.length - 1))]);
 
