@@ -4,6 +4,8 @@ body {
     margin: 0px;
     margin-left: 40%;
     margin-top: 10%;
+    background-color: #413f3f;
+    color: white;
 }
 
 span {
@@ -30,13 +32,10 @@ span {
 
 #genrate-button {
     margin-top: 20px;
-    border: 2px solid #dfdfdf;
+    border: 2px solid #4b3eff;
     border-radius: 10px;
-    background-color: #eeeeee;
-}
-
-#genrate-button:hover {
-    background-color: #ebebeb;
+    background-color: #4b3eff;
+    color: white;
 }
 
 #genrate-button-text {
